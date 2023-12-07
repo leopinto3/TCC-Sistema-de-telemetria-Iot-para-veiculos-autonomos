@@ -2,10 +2,10 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "VIVOFIBRA-D8DE"; // Insira o nome da sua rede WiFi
-const char* password = "72237AD8DE"; // Insira a senha da sua rede WiFi
+const char* ssid = "ssidE"; // Insira o nome da sua rede WiFi
+const char* password = "senha"; // Insira a senha da sua rede WiFi
 
-const char* mqttServer = "192.168.15.51"; // Endereço do servidor MQTT
+const char* mqttServer = "server"; // Endereço do servidor MQTT
 const int mqttPort = 1883;
 const char* mqttUser = "senha"; // Usuário MQTT
 const char* mqttPassword = "senha"; // Senha MQTT
